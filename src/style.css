@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+#mobile-menu-button.open .top {
+  transform: rotate(-45deg) translateY(7px) translateX(-6px);
+}
+
+#mobile-menu-button.open .middle {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+#mobile-menu-button.open .bottom {
+  transform: rotate(45deg) translateY(-7px) translateX(-6px);
+}
