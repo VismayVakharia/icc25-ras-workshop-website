@@ -1,8 +1,12 @@
 import "./style.css";
 
-const mobileMenuButton = document.getElementById("mobile-menu-button") as HTMLButtonElement;
+const mobileMenuButton = document.getElementById(
+  "mobile-menu-button"
+) as HTMLButtonElement;
 const mobileMenuDiv = document.getElementById("mobile-menu") as HTMLDivElement;
-const mobileOverlay = document.getElementById("mobile-menu-overlay") as HTMLDivElement;
+const mobileOverlay = document.getElementById(
+  "mobile-menu-overlay"
+) as HTMLDivElement;
 
 function openMenu() {
   mobileMenuDiv.classList.toggle("hidden");
@@ -40,3 +44,26 @@ document.querySelectorAll("#mobile-menu a").forEach((link) => {
     closeMenu();
   });
 });
+
+const emailButtons = document.getElementsByClassName("email");
+const copiedMsg = document.getElementById("copy-popup") as HTMLSpanElement;
+
+for (let index = 0; index < emailButtons.length; index++) {
+  const emailButton = emailButtons[index] as HTMLButtonElement;
+  emailButton.addEventListener("click", async () => {
+    const email = emailButton.innerText;
+    try {
+      await navigator.clipboard.writeText(email);
+      copiedMsg.classList.remove("hidden");
+      copiedMsg.classList.remove("opacity-0");
+      copiedMsg.classList.add("opacity-100");
+      setTimeout(() => {
+        copiedMsg.classList.add("hidden");
+        copiedMsg.classList.remove("opacity-100");
+        copiedMsg.classList.add("opacity-0");
+      }, 2000);
+    } catch (err) {
+      console.error("Failed to copy email:", err);
+    }
+  });
+}
