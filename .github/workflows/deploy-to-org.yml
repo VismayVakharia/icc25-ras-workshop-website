@@ -1,0 +1,30 @@
+name: Deploy to icc25-ras-workshop pages
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build site
+        run: npm run build
+
+      - name: Push to icc25-ras-workshop repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ORG_DEPLOY_KEY }}
+          publish_dir: ./dist
+          external_repository: icc25-ras-workshop/icc25-ras-workshop.github.io
+          publish_branch: main
