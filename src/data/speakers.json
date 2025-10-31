@@ -2,6 +2,7 @@
   {
     "name": "Dr. Niladri Das",
     "title": "Scientist, Consultant & Entrepreneur",
+    "role": "speaker",
     "bio": [
       "Dr. Niladri Das is a scientist, consultant, and entrepreneur whose career bridges aerospace engineering, electrical systems, and artificial intelligence. He holds a Ph.D. in Aerospace Engineering, Texas A&M University and both Master's (from IIT Kanpur) and Bachelor's (from Jadavpur University) degrees in Electrical Engineering, a foundation that shaped his lifelong focus on control, sensing, and complex system dynamics. Following his doctorate, he completed a postdoctoral fellowship at Sandia National Laboratories, where he worked on an LDRD grand challenge that combined materials optimization with applied resilience studies. His projects ranged from optimizing wafer deposition processes to advancing grid resilience against high-altitude electromagnetic pulses (HEMPs), modelling fire impacts on infrastructure, and calibrating climate models - experiences that sharpened his ability to fuse physical modelling with data-driven approaches.",
       "Today, Dr. Das applies these skills across diverse domains. As a Senior Data Science Consultant with the Midcontinent Independent System Operator (MISO), he develops forecasting and uncertainty management tools that safeguard one of the world's largest power grids. He also co-founded LithoAyas Technologies Corp., where as CTO he is building AI-driven platforms that integrate real-time sensing and machine learning to accelerate the discovery of critical mineral resources. In parallel, he leads ShRI (Science for Human Resilience Institute), a non-profit dedicated to advancing open, reproducible science for societal impact."
@@ -11,6 +12,7 @@
   {
     "name": "Dr. Satadal Ghosh",
     "title": "Assistant Professor of Aerospace Engineering, IIT Madras",
+    "role": "speaker",
     "bio": [
       "Dr. Ghosh earned his Ph.D. in Aerospace Engineering from the Indian Institute of Science (IISc) in Bangalore from 2009 to 2014. Before that, he completed his M.Tech. in Quality, Reliability, and Operations Research from the Indian Statistical Institute and his B.E. in Electrical Engineering from Jadavpur University. From 2015 to 2017, he was a U.S. National Research Council Research Associate at the Naval Postgraduate School in Monterey, California. He has been an Assistant Professor at IIT Madras since 2017. Dr. Ghosh's primary research interests include guidance, navigation, and control (GNC), with a focus on autonomous and unmanned vehicles. His work also covers multi-agent systems, path planning, and spacecraft applications such as soft landing and rendezvous."
     ],
@@ -19,6 +21,7 @@
   {
     "name": "Dr. Shishir N. Y. Kolathaya",
     "title": "Assistant Professor of RBCCPS and Computer Science & Automation, IISc Bangalore",
+    "role": "speaker",
     "bio": [
       "He is an Assistant Professor of the Robert Bosch Centre for Cyber Physical Systems (RBCCPS) and the Department of Computer Science and Automation (CSA) in IISc Bangalore. I received my Ph.D. degree in Mechanical Engineering (2016) from the Georgia Institute of Technology, M.S. degree in Electrical Engineering (2012) from Texas A&M University, and B.Tech. degree in Electrical Engineering (2008) from the National Institute of Technology Karnataka, Surathkal. I started my career in the field of robotics, especially in the domain of legged robots. My primary focus as a PhD student was on stability and control of walking robots. I have diversified to other fields like safety-critical control, and machine learning for all kinds of robotic platforms."
     ],
@@ -27,14 +30,28 @@
   {
     "name": "Dr. Dwaipayan Mukherjee",
     "title": "Associate Professor of Electrical Engineering at IIT Bombay",
+    "role": "speaker",
     "bio": [
       "Dwaipayan Mukherjee received the Bachelor of Engineering (B. E.) degree in Electrical Engineering from Jadavpur University, Kolkata, India, in 2007, the M. Tech. degree in Control Systems Engineering (EE) from the Indian Institute of Technology Kharagpur, Kharagpur, India, in 2009, and the Ph.D. degree in Aerospace Engineering from the Indian Institute of Science, Bangalore, India, in 2014. Thereafter, he was associated with the Department of Aerospace Engineering, IISc, Bangalore for a year, first as a Junior Research Associate (IISc-JRA) and subsequently as a Research Associate (IISc-RA). From 2015 to 2017, he was a Postdoctoral Fellow with the Faculty of Aerospace Engineering, Technion-Israel Institute of Technology. From June 2018 till February 2024, he served as an Assistant Professor of Electrical Engineering at the Indian Institute of Technology Bombay, where he . His research interests include multiagent systems, cooperative control, and control theory."
     ],
     "image": "dm.jpg"
   },
   {
+    "name": "M. Felix Orlando",
+    "title": "Associate Professor of Electrical Engineering at IIT Roorkee",
+    "role": "panelist",
+    "bio": [
+      "Prof. M. Felix Orlando is an Associate Professor in the Department of Electrical Engineering at IIT Roorkee, where he leads the Advanced Robotics Laboratory and coordinates the Systems and Control research group. With a career spanning over two decades across India, South Korea, and the United States, Prof. Orlando has emerged as a pioneering figure in intelligent robotics, rehabilitation systems, and AI-driven control strategies.",
+      "His research portfolio encompasses a wide spectrum of robotics applications—from teleoperated master-slave surgical systems and EMG/EEG-controlled exoskeletons to mobile and aerial robotics, disaster response platforms, and intelligent sensor integration. He has spearheaded multiple funded projects, including the development of leg exoskeletons for elderly assistance under IHFC, IIT Delhi, and smart surgical needles for image-guided interventions. His work bridges theoretical rigor with real-world impact, often translating into deployable systems for healthcare, mobility, and industrial automation.",
+      "Prof. Orlando's academic journey includes a PhD in Electrical Engineering from IIT Kanpur, a Master's in Robotics and Human-Computer Interaction from KIST, South Korea, and postdoctoral research at Case Western Reserve University, USA, where he focused on robotic needle steering for cancer interventions. He has authored over 60 publications in top-tier journals and conferences, received multiple best paper awards, and contributed book chapters on human-robot interaction and intelligent control.",
+      "Beyond research, Prof. Orlando is deeply committed to education and outreach. He has mentored numerous doctoral and postgraduate students, designed advanced robotics curricula, and delivered invited talks at leading institutions and international conferences. His teaching blends hands-on experimentation with cutting-edge theory, empowering the next generation of roboticists."
+    ],
+    "image": "fo.jpg"
+  },
+  {
     "name": "Dr. Harikumar Kandth",
     "title": "Director, Quantum Computing Lab, UC Berkeley",
+    "role": "panelist",
     "bio": [
       "Harikumar Kandath is working as an Assistant Professor with the Robotics Research Centre, International Institute of Information Technology, Hyderabad, India. He received the Ph.D. degree in Aerospace engineering from the Indian Institute of Science (IISc), Bengaluru, India, in 2015. He has held research positions with Singapore University of Technology and Design, Nanyang Technological University, Singapore, and University of Macau, China. His research interests are applications of control theory to unmanned systems and flight dynamics."
     ],

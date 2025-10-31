@@ -1,56 +1,47 @@
 import speakerHTML from "../components/speaker.html?raw";
+import panelistHTML from "../components/panelist.html?raw";
 import speakerData from "../data/speakers.json";
+
+type Speaker = {
+  name: string;
+  title: string;
+  role: "speaker" | "panelist";
+  bio: string[];
+  image: string;
+};
+
+function createElement<K extends keyof HTMLElementTagNameMap>(
+  tag: K,
+  className?: string,
+  textContent?: string
+) {
+  const el = document.createElement(tag);
+  if (className) el.className = className;
+  if (textContent) el.textContent = textContent;
+  return el;
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   loadSpeakers();
+  setupSpeakerAccordions();
+});
 
-  const accordions = document.querySelectorAll(".speaker-accordion");
+function setupSpeakerAccordions() {
+  const accordions =
+    document.querySelectorAll<HTMLDivElement>(".speaker-accordion");
 
   accordions.forEach((accordion) => {
-    const header = accordion.querySelector(
-      ".accordion-header"
-    ) as HTMLButtonElement;
-    const content = accordion.querySelector(
-      ".accordion-content"
-    ) as HTMLElement;
-    const chevron = accordion.querySelector(".accordion-chevron") as SVGElement;
+    const header =
+      accordion.querySelector<HTMLButtonElement>(".accordion-header")!;
+    const content =
+      accordion.querySelector<HTMLDivElement>(".accordion-content")!;
+    const chevron = accordion.querySelector<SVGElement>(".accordion-chevron")!;
 
     content.style.maxHeight = "0";
 
-    header.addEventListener("click", () => {
-      if (content.style.maxHeight !== "0px") {
-        content.style.maxHeight = "0";
-        chevron.style.transform = "rotate(0deg)";
-      } else {
-        accordions.forEach((otherAccordion) => {
-          if (otherAccordion !== accordion) {
-            const otherContent = otherAccordion.querySelector(
-              ".accordion-content"
-            ) as HTMLElement;
-            const otherChevron = otherAccordion.querySelector(
-              ".accordion-chevron"
-            ) as SVGElement;
-            if (otherContent.style.maxHeight !== "0px") {
-              otherContent.style.maxHeight = "0";
-              otherChevron.style.transform = "rotate(0deg)";
-            }
-          }
-        });
-
-        content.style.maxHeight = content.scrollHeight + "px";
-        chevron.style.transform = "rotate(180deg)";
-
-        setTimeout(() => {
-          const rect = accordion.getBoundingClientRect();
-          const isInViewport =
-            rect.top >= 55 && rect.bottom <= window.innerHeight;
-
-          if (!isInViewport) {
-            accordion.scrollIntoView({ behavior: "smooth", block: "nearest" });
-          }
-        }, 400);
-      }
-    });
+    header.addEventListener("click", () =>
+      toggleAccordion(accordion, content, chevron)
+    );
 
     let resizeTimeout: number;
     window.addEventListener("resize", () => {
@@ -62,48 +53,131 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 150);
     });
   });
-});
+}
+
+function toggleAccordion(
+  current: HTMLDivElement,
+  content: HTMLDivElement,
+  chevron: SVGElement
+) {
+  const all = document.querySelectorAll(".speaker-accordion");
+
+  const isOpen = content.style.maxHeight !== "0px";
+
+  // collapse all others
+  all.forEach((other) => {
+    if (other === current) return;
+    const otherContent =
+      other.querySelector<HTMLDivElement>(".accordion-content")!;
+    const otherChevron = other.querySelector<SVGElement>(".accordion-chevron")!;
+    otherContent.style.maxHeight = "0";
+    otherChevron.style.transform = "rotate(0deg)";
+  });
+
+  // toggle current one
+  if (isOpen) {
+    content.style.maxHeight = "0";
+    chevron.style.transform = "rotate(0deg)";
+  } else {
+    content.style.maxHeight = content.scrollHeight + "px";
+    chevron.style.transform = "rotate(180deg)";
+    scrollIntoViewIfNeeded(current as HTMLElement);
+  }
+}
+
+function scrollIntoViewIfNeeded(element: HTMLElement) {
+  setTimeout(() => {
+    const rect = element.getBoundingClientRect();
+    const isInViewport = rect.top >= 55 && rect.bottom <= window.innerHeight;
+
+    if (!isInViewport) {
+      element.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }, 400);
+}
 
 function loadSpeakers() {
-  const speakerContainer = document.getElementById(
-    "speaker-container"
-  ) as HTMLDivElement;
+  speakerData.forEach((speaker) => {
+    const isSpeaker = speaker.role === "speaker";
+    isSpeaker
+      ? addSpeaker(speaker as Speaker)
+      : addPanelist(speaker as Speaker);
+  });
+}
 
-  for (let i = 0; i < speakerData.length; i++) {
-    const accordian = document.createElement("div");
-    accordian.innerHTML = speakerHTML;
-    const speaker = speakerData[i];
+function addSpeaker(speaker: Speaker) {
+  const container = document.getElementById("speaker-container")!;
+  const node = document.createElement("div");
+  node.innerHTML = speakerHTML;
 
-    (
-      accordian.querySelector(".object-cover") as HTMLImageElement
-    ).src = `/images/${speaker.image}`;
+  const img = node.querySelector<HTMLImageElement>(".object-cover")!;
+  img.src = `/images/${speaker.image}`;
+  img.alt = speaker.name;
 
-    (accordian.querySelector(".object-cover") as HTMLImageElement).alt =
-      speaker.name;
+  node.querySelector<HTMLHeadingElement>("h4")!.textContent = speaker.name;
+  node.querySelector<HTMLParagraphElement>("button div p")!.textContent =
+    speaker.title;
 
-    (
-      (accordian.querySelector("button") as HTMLButtonElement).querySelector(
-        "h4"
-      ) as HTMLHeadingElement
-    ).textContent = speaker.name;
+  const bioDiv = node.querySelector<HTMLDivElement>(".prose")!;
+  speaker.bio.forEach((text) =>
+    bioDiv.appendChild(
+      createElement("p", "text-gray-700 leading-relaxed mb-3", text)
+    )
+  );
 
-    (
-      (
-        (accordian.querySelector("button") as HTMLButtonElement).querySelector(
-          "div"
-        ) as HTMLDivElement
-      ).querySelector("p") as HTMLParagraphElement
-    ).textContent = speaker.title;
+  container.appendChild(node);
+}
 
-    const bioDiv = accordian.querySelector(".prose") as HTMLDivElement;
+function addPanelist(speaker: Speaker) {
+  const container = document.getElementById("panelist-container")!;
+  const placeholder = container.children[0];
+  const card = document.createElement("div");
+  card.className = "lg:col-span-2";
+  card.innerHTML = panelistHTML;
 
-    speaker.bio.forEach((bioElement) => {
-      const p = document.createElement("p");
-      p.className = "text-gray-700 leading-relaxed mb-3";
-      p.textContent = bioElement;
-      bioDiv.appendChild(p);
-    });
+  const img = card.querySelector<HTMLImageElement>(".object-cover")!;
+  img.src = `/images/${speaker.image}`;
+  img.alt = speaker.name;
+  card.querySelector<HTMLHeadingElement>("h3")!.textContent = speaker.name;
+  card.querySelector<HTMLParagraphElement>("p")!.textContent = speaker.title;
 
-    speakerContainer.appendChild(accordian);
-  }
+  const bioDiv = document.getElementById("bioContainer")! as HTMLDivElement;
+  const bioName = bioDiv.querySelector<HTMLHeadingElement>("#bioName")!;
+  const bioText = bioDiv.querySelector<HTMLDivElement>("#bioText")!;
+  const closeBtn = bioText.querySelector("button");
+
+  card.addEventListener("click", () =>
+    togglePanelistBio(bioDiv, bioName, bioText, speaker)
+  );
+  closeBtn?.addEventListener("click", () => hidePanelistBio(bioDiv));
+
+  container.insertBefore(card, placeholder);
+}
+
+function togglePanelistBio(
+  bioDiv: HTMLDivElement,
+  bioName: HTMLHeadingElement,
+  bioText: HTMLDivElement,
+  speaker: Speaker
+) {
+  if (bioDiv.dataset["id"] === speaker.name) return hidePanelistBio(bioDiv);
+
+  bioDiv.dataset["id"] = speaker.name;
+  bioName.textContent = speaker.name;
+  bioDiv.classList.remove("hidden");
+
+  bioText.querySelectorAll("p").forEach((e) => {
+    bioText.removeChild(e);
+  });
+  speaker.bio.forEach((t) =>
+    bioText.appendChild(
+      createElement("p", "text-gray-700 leading-relaxed mb-3", t)
+    )
+  );
+  scrollIntoViewIfNeeded(bioDiv as HTMLElement);
+}
+
+function hidePanelistBio(bioDiv: HTMLDivElement) {
+  bioDiv.classList.add("hidden");
+  bioDiv.dataset["id"] = "";
 }

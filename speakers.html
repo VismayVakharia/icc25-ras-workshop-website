@@ -12,7 +12,38 @@
 
     <load src="src/components/intro.html" />
 
-    <section id="speakers" class="max-w-5xl mx-auto px-4 py-12">
+    <section class="max-w-6xl mx-auto px-4 py-10">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Panel Members</h2>
+
+      <div
+        id="panelist-container"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6"
+      >
+        <div
+          class="bg-gray-50 rounded-2xl border border-dashed border-gray-300 p-5 flex items-center justify-center text-gray-400 italic"
+        >
+          To be announced
+        </div>
+      </div>
+
+      <div
+        id="bioContainer"
+        class="mt-6 hidden scroll-mt-16 scroll-mb-5"
+        data-name=""
+      >
+        <div
+          id="bioText"
+          class="bg-white rounded-2xl shadow-md p-6 border-t-4 border-sky-600 transition-all duration-300"
+        >
+          <div class="flex justify-between items-start mb-2">
+            <h3 id="bioName" class="text-xl font-semibold text-gray-900"></h3>
+            <button class="text-gray-500 hover:text-gray-700"> ✕ </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers" class="max-w-6xl mx-auto px-4 py-12">
       <h3 class="text-3xl font-bold mb-10 text-gray-900">Featured Speakers</h3>
 
       <div class="space-y-4" id="speaker-container"> </div>
