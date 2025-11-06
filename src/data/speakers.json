@@ -1,5 +1,16 @@
 [
   {
+    "name": "Dr. Sachit Rao",
+    "title": "Associate Professor with the Robotics Research Centre, IIIT Bangalore",
+    "role": "speaker",
+    "bio": [
+      "Dr Sachit Rao obtained his Master's and Ph.D. degrees in Mechanical Engineering from the Ohio State University. His specialization is in the area of Control Systems and Theory with an emphasis on Sliding Mode Control.",
+      "He has over 3 years of post-doctoral experience working in the areas of control of electric machines, swarms of dynamic agents, and guidance laws for tactical interceptors. He also has 3 years of industrial experience working for an Indian robotics company. Prior to joining IIITB, he was a faculty in the Aerospace Engineering department of Jain University for a year.",
+      "His interests lie in the design and implementation of controllers for robotic manipulators and unmanned systems. He is also interested in using tools from Computer Science in widening the areas of applicability of automatic control."
+    ],
+    "image": "sr.jpg"
+  },
+  {
     "name": "Dr. Niladri Das",
     "title": "Scientist, Consultant & Entrepreneur",
     "role": "speaker",
@@ -19,26 +30,27 @@
     "image": "sg.jpg"
   },
   {
-    "name": "Dr. Shishir N. Y. Kolathaya",
-    "title": "Assistant Professor of RBCCPS and Computer Science & Automation, IISc Bangalore",
-    "role": "speaker",
-    "bio": [
-      "He is an Assistant Professor of the Robert Bosch Centre for Cyber Physical Systems (RBCCPS) and the Department of Computer Science and Automation (CSA) in IISc Bangalore. I received my Ph.D. degree in Mechanical Engineering (2016) from the Georgia Institute of Technology, M.S. degree in Electrical Engineering (2012) from Texas A&M University, and B.Tech. degree in Electrical Engineering (2008) from the National Institute of Technology Karnataka, Surathkal. I started my career in the field of robotics, especially in the domain of legged robots. My primary focus as a PhD student was on stability and control of walking robots. I have diversified to other fields like safety-critical control, and machine learning for all kinds of robotic platforms."
-    ],
-    "image": "sk.jpg"
-  },
-  {
     "name": "Dr. Dwaipayan Mukherjee",
-    "title": "Associate Professor of Electrical Engineering at IIT Bombay",
+    "title": "Associate Professor of Electrical Engineering, IIT Bombay",
     "role": "speaker",
     "bio": [
-      "Dwaipayan Mukherjee received the Bachelor of Engineering (B. E.) degree in Electrical Engineering from Jadavpur University, Kolkata, India, in 2007, the M. Tech. degree in Control Systems Engineering (EE) from the Indian Institute of Technology Kharagpur, Kharagpur, India, in 2009, and the Ph.D. degree in Aerospace Engineering from the Indian Institute of Science, Bangalore, India, in 2014. Thereafter, he was associated with the Department of Aerospace Engineering, IISc, Bangalore for a year, first as a Junior Research Associate (IISc-JRA) and subsequently as a Research Associate (IISc-RA). From 2015 to 2017, he was a Postdoctoral Fellow with the Faculty of Aerospace Engineering, Technion-Israel Institute of Technology. From June 2018 till February 2024, he served as an Assistant Professor of Electrical Engineering at the Indian Institute of Technology Bombay, where he . His research interests include multiagent systems, cooperative control, and control theory."
+      "Dwaipayan Mukherjee received the Bachelor of Engineering (B. E.) degree in Electrical Engineering from Jadavpur University, Kolkata, India, in 2007, the M. Tech. degree in Control Systems Engineering (EE) from the Indian Institute of Technology Kharagpur, Kharagpur, India, in 2009, and the Ph.D. degree in Aerospace Engineering from the Indian Institute of Science, Bangalore, India, in 2014. Thereafter, he was associated with the Department of Aerospace Engineering, IISc, Bangalore for a year, first as a Junior Research Associate (IISc-JRA) and subsequently as a Research Associate (IISc-RA). From 2015 to 2017, he was a Postdoctoral Fellow with the Faculty of Aerospace Engineering, Technion-Israel Institute of Technology. From June 2018 till February 2024, he served as an Assistant Professor of Electrical Engineering at the Indian Institute of Technology Bombay, where he is currently an Associate Professor. His research interests include multiagent systems, cooperative control, and control theory."
     ],
     "image": "dm.jpg"
   },
   {
-    "name": "M. Felix Orlando",
-    "title": "Associate Professor of Electrical Engineering at IIT Roorkee",
+    "name": "Dr. Shishir N. Y. Kolathaya",
+    "title": "Assistant Professor of RBCCPS and Computer Science & Automation, IISc Bangalore",
+    "role": "speaker",
+    "bio": [
+      "Dr. Shishir Kolathaya is an Assistant Professor at the Robert Bosch Centre for Cyber-Physical Systems (RBCCPS) and the Department of Computer Science and Automation (CSA) at the Indian Institute of Science (IISc), Bangalore. He received his Ph.D. degree in Mechanical Engineering (2016) from the Georgia Institute of Technology, M.S. degree in Electrical Engineering (2012) from Texas A&M University, and B.Tech. degree in Electrical Engineering (2008) from the National Institute of Technology Karnataka, Surathkal.",
+      "He began his career in the field of robotics, with a particular focus on legged robots. His primary research as a Ph.D. student centered on the stability and control of walking robots. Over time, he has diversified his research interests to include safety-critical control and machine learning for a wide range of robotic platforms."
+    ],
+    "image": "sk.jpg"
+  },
+  {
+    "name": "Dr. M. Felix Orlando",
+    "title": "Associate Professor of Electrical Engineering, IIT Roorkee",
     "role": "panelist",
     "bio": [
       "Prof. M. Felix Orlando is an Associate Professor in the Department of Electrical Engineering at IIT Roorkee, where he leads the Advanced Robotics Laboratory and coordinates the Systems and Control research group. With a career spanning over two decades across India, South Korea, and the United States, Prof. Orlando has emerged as a pioneering figure in intelligent robotics, rehabilitation systems, and AI-driven control strategies.",
@@ -50,11 +62,29 @@
   },
   {
     "name": "Dr. Harikumar Kandth",
-    "title": "Director, Quantum Computing Lab, UC Berkeley",
+    "title": "Assistant Professor with the Robotics Research Centre, IIIT Hyderabad",
     "role": "panelist",
     "bio": [
       "Harikumar Kandath is working as an Assistant Professor with the Robotics Research Centre, International Institute of Information Technology, Hyderabad, India. He received the Ph.D. degree in Aerospace engineering from the Indian Institute of Science (IISc), Bengaluru, India, in 2015. He has held research positions with Singapore University of Technology and Design, Nanyang Technological University, Singapore, and University of Macau, China. His research interests are applications of control theory to unmanned systems and flight dynamics."
     ],
     "image": "hk.jpg"
+  },
+  {
+    "name": "Dr. Arnab Maity",
+    "title": "Associate Professor of Aerospace Engineering, IIT Bombay",
+    "role": "panelist",
+    "bio": [],
+    "image": "am.jpg"
+  },
+  {
+    "name": "Dr. Ravi Prakash",
+    "title": "Assistant Professor with the RBCCPS, IISc Bangalore",
+    "role": "panelist",
+    "bio": [
+      "Dr. Ravi Prakash is an Assistant Professor at the Robert Bosch Centre for Cyber-Physical Systems at the Indian Institute of Science, Bengaluru. Prior to this, he was a Postdoctoral Researcher in the Learning and Autonomous Control group at the Department of Cognitive Robotics, TU Delft. He earned his Ph.D. in Control & Automation from the Indian Institute of Technology Kanpur. His research has contributed towards skill learning and optimal control for intelligent robots. He is a recipient of the DAAD Postdoc Networking Fellowship for AI and Robotics, which supported his research visits to the German Aerospace Center (DLR), Munich.",
+      "His current research interests include learning complex manipulation policies from human demonstrations and corrections, bimanual robot manipulation, task generalization in novel environments, and human-friendly safe compliant control.",
+      "He is the founder and director of the Human-interactive Robotics Lab at the Indian Institute of Science."
+    ],
+    "image": "rp.jpg"
   }
 ]

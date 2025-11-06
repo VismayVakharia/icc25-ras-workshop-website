@@ -130,7 +130,6 @@ function addSpeaker(speaker: Speaker) {
 
 function addPanelist(speaker: Speaker) {
   const container = document.getElementById("panelist-container")!;
-  const placeholder = container.children[0];
   const card = document.createElement("div");
   card.className = "lg:col-span-2";
   card.innerHTML = panelistHTML;
@@ -146,12 +145,14 @@ function addPanelist(speaker: Speaker) {
   const bioText = bioDiv.querySelector<HTMLDivElement>("#bioText")!;
   const closeBtn = bioText.querySelector("button");
 
-  card.addEventListener("click", () =>
-    togglePanelistBio(bioDiv, bioName, bioText, speaker)
-  );
-  closeBtn?.addEventListener("click", () => hidePanelistBio(bioDiv));
+  if (speaker.bio.length > 0) {
+    card.addEventListener("click", () =>
+      togglePanelistBio(bioDiv, bioName, bioText, speaker)
+    );
+    closeBtn?.addEventListener("click", () => hidePanelistBio(bioDiv));
+  }
 
-  container.insertBefore(card, placeholder);
+  container.appendChild(card);
 }
 
 function togglePanelistBio(
