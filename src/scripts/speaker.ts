@@ -5,6 +5,7 @@ import speakerData from "../data/speakers.json";
 type Speaker = {
   name: string;
   title: string;
+  talk_title: string;
   role: "speaker" | "panelist";
   bio: string[];
   image: string;
@@ -115,8 +116,10 @@ function addSpeaker(speaker: Speaker) {
   img.alt = speaker.name;
 
   node.querySelector<HTMLHeadingElement>("h4")!.textContent = speaker.name;
-  node.querySelector<HTMLParagraphElement>("button div p")!.textContent =
+  node.querySelector<HTMLParagraphElement>("#speaker-title")!.textContent =
     speaker.title;
+  node.querySelector<HTMLParagraphElement>("#speaker-talk")!.textContent =
+    speaker.talk_title;
 
   const bioDiv = node.querySelector<HTMLDivElement>(".prose")!;
   speaker.bio.forEach((text) =>
