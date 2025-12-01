@@ -23,6 +23,16 @@
     "image": "nd.jpg"
   },
   {
+    "name": "Dr. Khimya Khetarpal",
+    "title": "Senior Research Scientist, Google Deepmind",
+    "role": "speaker",
+    "talk_title": "Navigating the Affordance Landscape for Continual Agent Adaptation",
+    "bio": [
+      "Khimya Khetarpal is a Senior Research Scientist at Google Deepmind, and an Affiliate Faculty Member of Mila. She earned her Ph.D. in Computer Science from the Reasoning and Learning Lab at McGill University and Mila, advised by Doina Precup. She is broadly interested in artificial intelligence and reinforcement learning. Khimya’s work has appeared in leading AI journals and conferences including NeurIPS, ICML, AAAI, AISTATS, ICLR, The Knowledge Engineering Review, ACM, JAIR and TMLR. Her work has also been featured in MIT Technology Review. She was recognized as an Early Career researcher by Conference on Lifelong Learning in 2025, TMLR expert reviewer in 2023, one of the Rising Stars in EECS 2020, a finalist for Three Minute Thesis (3MT) competition in AAAI 2019, selected for the Doctoral Consortium at AAAI 2019, and awarded Best Paper Award (3rd Price) for an ICML 2018 workshop on lifelong learning. Throughout her career, she has sought to actively mentor through initiatives such as co-founding the Mila peer advising initiative, teaching and assisting AI4Good Lab, volunteering at Skype A Scientist, and mentoring at FIRST Robotics."
+    ],
+    "image": "kk.png"
+  },
+  {
     "name": "Dr. Satadal Ghosh",
     "title": "Assistant Professor of Aerospace Engineering, IIT Madras",
     "role": "speaker",
@@ -97,3 +107,4 @@
     "image": "rp.jpg"
   }
 ]
+
