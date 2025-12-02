@@ -105,6 +105,25 @@
       "He is the founder and director of the Human-interactive Robotics Lab at the Indian Institute of Science."
     ],
     "image": "rp.jpg"
+  },
+  {
+    "name": "Dr. Abhishek Ghosh Roy",
+    "title": "Lead Autonomous Systems and Data Intelligence, Airborne Platforms and Systems, TATA Advanced Systems Limited, Bangalore",
+    "role": "panelist",
+    "talk_title": "Coming Soon",
+    "bio": [
+      "Dr. Abhishek Ghosh Roy is leading - Autonomous Systems and Data Intelligence vertical at TATA Advanced Systems, specializing in aviation-grade autopilot design, UAV guidance and control, and AI-enabled autonomy. He holds a Ph.D. in Systems and Control from IIT Kharagpur, a postdoctoral research stint at UNIST (South Korea), an M.E. in Control Systems from Jadavpur University, and a B.Tech in Electronics & Instrumentation. Dr. Roy has led R&D on UAV system identification, autonomous landing on moving platforms, swarm and spray drones, and real-time vision-based navigation across roles at TASL, as Chief Technology Officer at Paras Aerospace and as Lead Engineer Guidance Navigation Control at General Aeronautics. His current interests include AI-driven flight control, digital twins, and next-generation unmanned aircraft systems."
+    ],
+    "image": "agr.jpg"
+  },
+  {
+    "name": "Dr. Galib Rahaman Mallik",
+    "title": "Lead Data Scientist, Orion Innovation",
+    "role": "panelist",
+    "talk_title": "Coming Soon",
+    "bio": [
+      "Dr. Galib Rahaman Mallik is a Lead Data Scientist at Orion Innovation, working at the intersection of advanced research and enterprise AI. His expertise spans AI, differential geometry, and control theory, with applications in robotics, aerospace, healthcare, and bioinformatics. He holds a Ph.D. from IIT Bombay and completed a postdoctoral fellowship at Kansas State University."
+    ],
+    "image": "grm.jpg"
   }
 ]
-
