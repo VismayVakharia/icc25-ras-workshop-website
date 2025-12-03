@@ -1,17 +1,5 @@
 [
   {
-    "name": "Dr. Sachit Rao",
-    "title": "Associate Professor with the Robotics Research Centre, IIIT Bangalore",
-    "role": "speaker",
-    "talk_title": "Coming Soon",
-    "bio": [
-      "Dr Sachit Rao obtained his Master's and Ph.D. degrees in Mechanical Engineering from the Ohio State University. His specialization is in the area of Control Systems and Theory with an emphasis on Sliding Mode Control.",
-      "He has over 3 years of post-doctoral experience working in the areas of control of electric machines, swarms of dynamic agents, and guidance laws for tactical interceptors. He also has 3 years of industrial experience working for an Indian robotics company. Prior to joining IIITB, he was a faculty in the Aerospace Engineering department of Jain University for a year.",
-      "His interests lie in the design and implementation of controllers for robotic manipulators and unmanned systems. He is also interested in using tools from Computer Science in widening the areas of applicability of automatic control."
-    ],
-    "image": "sr.jpg"
-  },
-  {
     "name": "Dr. Niladri Das",
     "title": "Scientist, Consultant & Entrepreneur",
     "role": "speaker",
@@ -34,7 +22,7 @@
   },
   {
     "name": "Dr. Satadal Ghosh",
-    "title": "Assistant Professor of Aerospace Engineering, IIT Madras",
+    "title": "Associate Professor of Aerospace Engineering, IIT Madras",
     "role": "speaker",
     "talk_title": "Coming Soon",
     "bio": [
@@ -51,17 +39,6 @@
       "Dwaipayan Mukherjee received the Bachelor of Engineering (B. E.) degree in Electrical Engineering from Jadavpur University, Kolkata, India, in 2007, the M. Tech. degree in Control Systems Engineering (EE) from the Indian Institute of Technology Kharagpur, Kharagpur, India, in 2009, and the Ph.D. degree in Aerospace Engineering from the Indian Institute of Science, Bangalore, India, in 2014. Thereafter, he was associated with the Department of Aerospace Engineering, IISc, Bangalore for a year, first as a Junior Research Associate (IISc-JRA) and subsequently as a Research Associate (IISc-RA). From 2015 to 2017, he was a Postdoctoral Fellow with the Faculty of Aerospace Engineering, Technion-Israel Institute of Technology. From June 2018 till February 2024, he served as an Assistant Professor of Electrical Engineering at the Indian Institute of Technology Bombay, where he is currently an Associate Professor. His research interests include multiagent systems, cooperative control, and control theory."
     ],
     "image": "dm.jpg"
-  },
-  {
-    "name": "Dr. Shishir N. Y. Kolathaya",
-    "title": "Assistant Professor of RBCCPS and Computer Science & Automation, IISc Bangalore",
-    "role": "speaker",
-    "talk_title": "Coming Soon",
-    "bio": [
-      "Dr. Shishir Kolathaya is an Assistant Professor at the Robert Bosch Centre for Cyber-Physical Systems (RBCCPS) and the Department of Computer Science and Automation (CSA) at the Indian Institute of Science (IISc), Bangalore. He received his Ph.D. degree in Mechanical Engineering (2016) from the Georgia Institute of Technology, M.S. degree in Electrical Engineering (2012) from Texas A&M University, and B.Tech. degree in Electrical Engineering (2008) from the National Institute of Technology Karnataka, Surathkal.",
-      "He began his career in the field of robotics, with a particular focus on legged robots. His primary research as a Ph.D. student centered on the stability and control of walking robots. Over time, he has diversified his research interests to include safety-critical control and machine learning for a wide range of robotic platforms."
-    ],
-    "image": "sk.jpg"
   },
   {
     "name": "Dr. M. Felix Orlando",
