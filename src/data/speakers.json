@@ -3,7 +3,7 @@
     "name": "Dr. Niladri Das",
     "title": "Scientist, Consultant & Entrepreneur",
     "role": "speaker",
-    "talk_title": "Coming Soon",
+    "talk_title": "Adaptive Intelligence Across Domains: From Electric Grids to Subsurface Sensing",
     "bio": [
       "Dr. Niladri Das is a scientist, consultant, and entrepreneur whose career bridges aerospace engineering, electrical systems, and artificial intelligence. He holds a Ph.D. in Aerospace Engineering, Texas A&M University and both Master's (from IIT Kanpur) and Bachelor's (from Jadavpur University) degrees in Electrical Engineering, a foundation that shaped his lifelong focus on control, sensing, and complex system dynamics. Following his doctorate, he completed a postdoctoral fellowship at Sandia National Laboratories, where he worked on an LDRD grand challenge that combined materials optimization with applied resilience studies. His projects ranged from optimizing wafer deposition processes to advancing grid resilience against high-altitude electromagnetic pulses (HEMPs), modelling fire impacts on infrastructure, and calibrating climate models - experiences that sharpened his ability to fuse physical modelling with data-driven approaches.",
       "Today, Dr. Das applies these skills across diverse domains. As a Senior Data Science Consultant with the Midcontinent Independent System Operator (MISO), he develops forecasting and uncertainty management tools that safeguard one of the world's largest power grids. He also co-founded LithoAyas Technologies Corp., where as CTO he is building AI-driven platforms that integrate real-time sensing and machine learning to accelerate the discovery of critical mineral resources. In parallel, he leads ShRI (Science for Human Resilience Institute), a non-profit dedicated to advancing open, reproducible science for societal impact."
@@ -24,7 +24,7 @@
     "name": "Dr. Satadal Ghosh",
     "title": "Associate Professor of Aerospace Engineering, IIT Madras",
     "role": "speaker",
-    "talk_title": "Coming Soon",
+    "talk_title": "Motion Planning and Guidance for Autonomous Systems",
     "bio": [
       "Dr. Ghosh earned his Ph.D. in Aerospace Engineering from the Indian Institute of Science (IISc) in Bangalore from 2009 to 2014. Before that, he completed his M.Tech. in Quality, Reliability, and Operations Research from the Indian Statistical Institute and his B.E. in Electrical Engineering from Jadavpur University. From 2015 to 2017, he was a U.S. National Research Council Research Associate at the Naval Postgraduate School in Monterey, California. He has been an Assistant Professor at IIT Madras since 2017. Dr. Ghosh's primary research interests include guidance, navigation, and control (GNC), with a focus on autonomous and unmanned vehicles. His work also covers multi-agent systems, path planning, and spacecraft applications such as soft landing and rendezvous."
     ],
