@@ -11,9 +11,527 @@
 
     <load src="src/components/intro.html" />
 
-    <section id="schedule" class="max-w-6xl mx-auto px-4 py-12">
+    <section id="schedule" class="max-w-6xl mx-auto px-4 py-8">
       <h3 class="text-3xl font-bold mb-8 text-gray-900">Workshop Schedule</h3>
-      Coming Soon...
+      <div
+        class="bg-gradient-to-r from-sky-100 to-cyan-100 border-l-4 border-sky-500 p-5 mb-8 rounded-lg shadow-sm"
+      >
+        <p class="text-sky-900 flex items-center">
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span class="font-semibold"
+            >All timings are in Indian Standard Time (IST/UTC +5:30)</span
+          >
+        </p>
+      </div>
+
+      <div
+        class="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200"
+      >
+        <!-- Session 1 -->
+        <div
+          class="border-b border-slate-200 hover:bg-slate-50 transition-colors duration-300"
+        >
+          <div class="p-8">
+            <div
+              class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6"
+            >
+              <div class="flex items-start space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-sky-400 to-sky-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg"
+                >
+                  1
+                </div>
+                <div>
+                  <h2 class="text-2xl font-bold text-slate-900"
+                    >Invited Talks</h2
+                  >
+                  <p class="text-slate-500 mt-1">Session 1</p>
+                </div>
+              </div>
+              <div
+                class="mt-4 sm:mt-0 flex items-center space-x-2 bg-sky-100 px-4 py-2 rounded-full"
+              >
+                <svg
+                  class="w-4 h-4 text-sky-600"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-sky-800 font-semibold">09:00 - 10:30</span>
+              </div>
+            </div>
+
+            <div class="space-y-3 ml-0 sm:ml-16">
+              <div
+                class="group bg-gradient-to-r from-slate-50 to-sky-50 border-l-4 border-sky-400 pl-6 pr-6 py-4 rounded-r-xl hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <span
+                    class="text-sm font-bold text-sky-700 bg-sky-100 px-3 py-1 rounded-full"
+                    >9:00 - 9:45</span
+                  >
+                  <span class="text-xs text-slate-500 font-medium">45 min</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-slate-900 group-hover:text-sky-700 transition-colors"
+                  >Navigating the Affordance Landscape for Continual Agent
+                  Adaptation</h3
+                >
+                <p class="text-slate-600 mt-1 flex items-center">
+                  <svg
+                    class="w-4 h-4 mr-2 text-slate-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Dr. Khimya Khetarpal, Google Deepmind
+                </p>
+              </div>
+
+              <div
+                class="group bg-gradient-to-r from-slate-50 to-sky-50 border-l-4 border-sky-400 pl-6 pr-6 py-4 rounded-r-xl hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <span
+                    class="text-sm font-bold text-sky-700 bg-sky-100 px-3 py-1 rounded-full"
+                    >9:45 - 10:30</span
+                  >
+                  <span class="text-xs text-slate-500 font-medium">45 min</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-slate-900 group-hover:text-sky-700 transition-colors"
+                  >Adaptive Intelligence Across Domains: From Electric Grids to
+                  Subsurface Sensing</h3
+                >
+                <p class="text-slate-600 mt-1 flex items-center">
+                  <svg
+                    class="w-4 h-4 mr-2 text-slate-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Dr. Niladri Das, MISO, LithoAyas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coffee Break -->
+        <div
+          class="border-b border-slate-200 bg-gradient-to-r from-amber-50 to-orange-50"
+        >
+          <div class="p-6 flex flex-col justify-between items-center">
+            <div class="flex items-center space-x-3">
+              <div
+                class="w-10 h-10 bg-amber-400 text-white rounded-xl flex items-center justify-center font-bold shadow"
+              >
+                ☕
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-slate-900"
+                  >Coffee Break</h3
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 2 -->
+        <div
+          class="border-b border-slate-200 hover:bg-slate-50 transition-colors duration-300"
+        >
+          <div class="p-8">
+            <div
+              class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6"
+            >
+              <div class="flex items-start space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-sky-400 to-sky-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg"
+                >
+                  2
+                </div>
+                <div>
+                  <h2 class="text-2xl font-bold text-slate-900"
+                    >Invited Talks</h2
+                  >
+                  <p class="text-slate-500 mt-1">Session 2</p>
+                </div>
+              </div>
+              <div
+                class="mt-4 sm:mt-0 flex items-center space-x-2 bg-sky-100 px-4 py-2 rounded-full"
+              >
+                <svg
+                  class="w-4 h-4 text-sky-600"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-sky-800 font-semibold">11:00 - 12:30</span>
+              </div>
+            </div>
+
+            <div class="space-y-3 ml-0 sm:ml-16">
+              <div
+                class="group bg-gradient-to-r from-slate-50 to-sky-50 border-l-4 border-sky-400 pl-6 pr-6 py-4 rounded-r-xl hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <span
+                    class="text-sm font-bold text-sky-700 bg-sky-100 px-3 py-1 rounded-full"
+                    >11:00 - 11:45</span
+                  >
+                  <span class="text-xs text-slate-500 font-medium">45 min</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-slate-900 group-hover:text-sky-700 transition-colors"
+                  >Formation Control and Rigidity: Graph Theoretic
+                  Underpinnings</h3
+                >
+                <p class="text-slate-600 mt-1 flex items-center">
+                  <svg
+                    class="w-4 h-4 mr-2 text-slate-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Dr. Dwaipayan Mukherjee, IIT Bombay
+                </p>
+              </div>
+
+              <div
+                class="group bg-gradient-to-r from-slate-50 to-sky-50 border-l-4 border-sky-400 pl-6 pr-6 py-4 rounded-r-xl hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <span
+                    class="text-sm font-bold text-sky-700 bg-sky-100 px-3 py-1 rounded-full"
+                    >11:45 - 12:30</span
+                  >
+                  <span class="text-xs text-slate-500 font-medium">45 min</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-slate-900 group-hover:text-sky-700 transition-colors"
+                  >Motion Planning and Guidance for Autonomous Systems</h3
+                >
+                <p class="text-slate-600 mt-1 flex items-center">
+                  <svg
+                    class="w-4 h-4 mr-2 text-slate-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Dr. Satadal Ghosh, IIT Madras
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Break -->
+        <div
+          class="border-b border-slate-200 bg-gradient-to-r from-purple-50 to-pink-50"
+        >
+          <div
+            class="p-6 flex flex-col items-center text-center justify-between"
+          >
+            <div class="flex items-center space-x-3">
+              <div
+                class="w-10 h-10 bg-purple-400 text-white rounded-xl flex items-center justify-center font-bold shadow"
+              >
+                🥗
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-slate-900"
+                  >Lunch Break</h3
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 3 -->
+        <div
+          class="border-b border-slate-200 hover:bg-slate-50 transition-colors duration-300"
+        >
+          <div class="p-8">
+            <div
+              class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6"
+            >
+              <div class="flex items-start space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-sky-400 to-sky-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg"
+                >
+                  3
+                </div>
+                <div>
+                  <h2 class="text-2xl font-bold text-slate-900"
+                    >Lightning Talks</h2
+                  >
+                  <p class="text-slate-500 mt-1">Session 3</p>
+                </div>
+              </div>
+              <div
+                class="mt-4 sm:mt-0 flex items-center space-x-2 bg-sky-100 px-4 py-2 rounded-full"
+              >
+                <svg
+                  class="w-4 h-4 text-sky-600"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-sky-800 font-semibold">14:00 - 15:30</span>
+              </div>
+            </div>
+
+            <div class="ml-0 sm:ml-16">
+              <div
+                class="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-sky-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300"
+              >
+                <div class="flex items-start space-x-3 mb-4">
+                  <svg
+                    class="w-6 h-6 text-sky-600 flex-shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"
+                    />
+                  </svg>
+                  <p class="text-slate-700 font-medium text-lg"
+                    >Lightning presentations from the authors of accepted
+                    abstracts</p
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-sky-500 to-cyan-600 text-white font-semibold rounded-lg hover:from-sky-600 hover:to-cyan-700 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  <span>View List of Accepted Abstracts</span>
+                  <svg
+                    class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-b border-slate-200 bg-gradient-to-r from-amber-50 to-orange-50"
+        >
+          <div class="p-6 flex flex-col justify-between items-center">
+            <div class="flex items-center space-x-3">
+              <div
+                class="w-10 h-10 bg-amber-400 text-white rounded-xl flex items-center justify-center font-bold shadow"
+              >
+                ☕
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-slate-900"
+                  >Coffee Break</h3
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 4 -->
+        <div class="hover:bg-slate-50 transition-colors duration-300">
+          <div class="p-8">
+            <div
+              class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6"
+            >
+              <div class="flex items-start space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-sky-400 to-sky-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg"
+                >
+                  4
+                </div>
+                <div>
+                  <h2 class="text-2xl font-bold text-slate-900"
+                    >Panel Discussion</h2
+                  >
+                  <p class="text-slate-500 mt-1">Session 4</p>
+                </div>
+              </div>
+              <div
+                class="mt-4 sm:mt-0 flex items-center space-x-2 bg-sky-100 px-4 py-2 rounded-full"
+              >
+                <svg
+                  class="w-4 h-4 text-sky-600"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-sky-800 font-semibold">16:00 - 17:30</span>
+              </div>
+            </div>
+
+            <div class="ml-0 sm:ml-16">
+              <p class="text-slate-700 font-medium mb-5 flex items-center">
+                <svg
+                  class="w-5 h-5 mr-2 text-sky-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"
+                  />
+                </svg>
+                Panel discussion with the following panelists:
+              </p>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">1</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. M. Felix Orlando - IIT Roorkee</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">2</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. Harikumar Kandth - IIIT Hyderabad</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">3</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. Arnab Maity - IIT Bombay</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">4</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. Ravi Prakash - IISc Bangalore</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">5</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. Abhishek Ghosh Roy - Tata Advanced Systems
+                    Limited</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">6</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Dr. Galib Rahaman Mallik - Orion Innovations</span
+                  >
+                </div>
+                <div
+                  class="group bg-gradient-to-r from-sky-50 to-blue-50 border-l-4 border-sky-400 pl-5 py-3 rounded-r-lg hover:shadow-md hover:border-sky-600 transition-all duration-300 cursor-pointer flex items-center"
+                >
+                  <div
+                    class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-3 group-hover:bg-sky-200 transition-colors"
+                  >
+                    <span class="text-sky-700 font-bold text-sm">7</span>
+                  </div>
+                  <span
+                    class="text-slate-800 font-medium group-hover:text-sky-700 transition-colors"
+                    >Swarnava Dey - TCS Research</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
