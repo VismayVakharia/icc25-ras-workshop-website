@@ -96,5 +96,17 @@
       "Dr. Galib Rahaman Mallik is a Lead Data Scientist at Orion Innovation, working at the intersection of advanced research and enterprise AI. His expertise spans AI, differential geometry, and control theory, with applications in robotics, aerospace, healthcare, and bioinformatics. He holds a Ph.D. from IIT Bombay and completed a postdoctoral fellowship at Kansas State University."
     ],
     "image": "grm.jpg"
+  },
+  {
+    "name": "Swarnava Dey",
+    "title": "Senior Scientist, TCS Research",
+    "role": "panelist",
+    "bio": [
+      "Swarnava Dey brings over 25 years of industrial research experience in Embedded Systems, spanning embedded computer vision, physiological and physical signal analytics, speech processing, and edge computing. He holds an M.Tech from the Indian Institute of Technology Kharagpur and is currently a Ph.D. candidate at the Artificial Intelligence department at the same institute. Swarnava is a Senior Scientist at TCS Research, where he leads the AutoML research for Digital AI team. His current focus is on Neural Architecture Search and automated model generation for designing tiny machine learning models for embedded vision and sensor time-series analytics, with applications in Connected Healthcare, Life Sciences, Smart Manufacturing, and Remote Sensing.",
+      "He has filed over 50 patents as first inventor, with more than 35 granted globally, and has authored over 30 publications as primary author in leading journals and conferences. Swarnava has developed lightweight vision models for use cases such as facial recognition on microcontrollers, precision agriculture, fire localization, disease detection and organ segmentation in medical imaging, and satellite-based change detection and AI-based control.",
+      "He has delivered invited talks and tutorials on edge vision, including industry expert talk at IEEE ICIP 2025, a keynote at the IEEE PerCom 2024 AutoML Workshop and sessions at ACM AIMLSystems, TinyML Foundation and CODS-COMAD 2024.",
+      "Swarnava serves as a regular reviewer for ACM TECS, IJCV, PAMI, JMIR, and top-tier conferences including CVPR, AAAI, ICLR, ICCV, ECCV, BMVC, and MICCAI. He is one of the few researchers exploring adversarial and out-of-distribution robustness of tiny vision models."
+    ],
+    "image": "sd.jpg"
   }
 ]
