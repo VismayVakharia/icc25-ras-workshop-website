@@ -12,6 +12,7 @@ export default defineConfig({
         speakers: "speakers.html",
         schedule: "schedule.html",
         organizers: "organizers.html",
+        abstracts: "abstracts.html",
       },
     },
   },

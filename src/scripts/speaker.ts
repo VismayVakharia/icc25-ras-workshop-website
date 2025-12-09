@@ -1,15 +1,7 @@
 import speakerHTML from "../components/speaker.html?raw";
 import panelistHTML from "../components/panelist.html?raw";
 import speakerData from "../data/speakers.json";
-
-type Speaker = {
-  name: string;
-  title: string;
-  talk_title: string;
-  role: "speaker" | "panelist";
-  bio: string[];
-  image: string;
-};
+import type { Speaker } from "./types";
 
 function createElement<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -119,7 +111,7 @@ function addSpeaker(speaker: Speaker) {
   node.querySelector<HTMLParagraphElement>("#speaker-title")!.textContent =
     speaker.title;
   node.querySelector<HTMLParagraphElement>("#speaker-talk")!.textContent =
-    speaker.talk_title;
+    speaker.talk_title!;
 
   const bioDiv = node.querySelector<HTMLDivElement>(".prose")!;
   speaker.bio.forEach((text) =>

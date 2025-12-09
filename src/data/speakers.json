@@ -44,7 +44,6 @@
     "name": "Dr. M. Felix Orlando",
     "title": "Associate Professor of Electrical Engineering, IIT Roorkee",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [
       "Prof. M. Felix Orlando is an Associate Professor in the Department of Electrical Engineering at IIT Roorkee, where he leads the Advanced Robotics Laboratory and coordinates the Systems and Control research group. With a career spanning over two decades across India, South Korea, and the United States, Prof. Orlando has emerged as a pioneering figure in intelligent robotics, rehabilitation systems, and AI-driven control strategies.",
       "His research portfolio encompasses a wide spectrum of robotics applications—from teleoperated master-slave surgical systems and EMG/EEG-controlled exoskeletons to mobile and aerial robotics, disaster response platforms, and intelligent sensor integration. He has spearheaded multiple funded projects, including the development of leg exoskeletons for elderly assistance under IHFC, IIT Delhi, and smart surgical needles for image-guided interventions. His work bridges theoretical rigor with real-world impact, often translating into deployable systems for healthcare, mobility, and industrial automation.",
@@ -57,7 +56,6 @@
     "name": "Dr. Harikumar Kandth",
     "title": "Assistant Professor with the Robotics Research Centre, IIIT Hyderabad",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [
       "Harikumar Kandath is working as an Assistant Professor with the Robotics Research Centre, International Institute of Information Technology, Hyderabad, India. He received the Ph.D. degree in Aerospace engineering from the Indian Institute of Science (IISc), Bengaluru, India, in 2015. He has held research positions with Singapore University of Technology and Design, Nanyang Technological University, Singapore, and University of Macau, China. His research interests are applications of control theory to unmanned systems and flight dynamics."
     ],
@@ -67,7 +65,6 @@
     "name": "Dr. Arnab Maity",
     "title": "Associate Professor of Aerospace Engineering, IIT Bombay",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [],
     "image": "am.jpg"
   },
@@ -75,7 +72,6 @@
     "name": "Dr. Ravi Prakash",
     "title": "Assistant Professor with the RBCCPS, IISc Bangalore",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [
       "Dr. Ravi Prakash is an Assistant Professor at the Robert Bosch Centre for Cyber-Physical Systems at the Indian Institute of Science, Bengaluru. Prior to this, he was a Postdoctoral Researcher in the Learning and Autonomous Control group at the Department of Cognitive Robotics, TU Delft. He earned his Ph.D. in Control & Automation from the Indian Institute of Technology Kanpur. His research has contributed towards skill learning and optimal control for intelligent robots. He is a recipient of the DAAD Postdoc Networking Fellowship for AI and Robotics, which supported his research visits to the German Aerospace Center (DLR), Munich.",
       "His current research interests include learning complex manipulation policies from human demonstrations and corrections, bimanual robot manipulation, task generalization in novel environments, and human-friendly safe compliant control.",
@@ -87,7 +83,6 @@
     "name": "Dr. Abhishek Ghosh Roy",
     "title": "Lead Autonomous Systems and Data Intelligence, Airborne Platforms and Systems, TATA Advanced Systems Limited, Bangalore",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [
       "Dr. Abhishek Ghosh Roy is leading - Autonomous Systems and Data Intelligence vertical at TATA Advanced Systems, specializing in aviation-grade autopilot design, UAV guidance and control, and AI-enabled autonomy. He holds a Ph.D. in Systems and Control from IIT Kharagpur, a postdoctoral research stint at UNIST (South Korea), an M.E. in Control Systems from Jadavpur University, and a B.Tech in Electronics & Instrumentation. Dr. Roy has led R&D on UAV system identification, autonomous landing on moving platforms, swarm and spray drones, and real-time vision-based navigation across roles at TASL, as Chief Technology Officer at Paras Aerospace and as Lead Engineer Guidance Navigation Control at General Aeronautics. His current interests include AI-driven flight control, digital twins, and next-generation unmanned aircraft systems."
     ],
@@ -97,11 +92,9 @@
     "name": "Dr. Galib Rahaman Mallik",
     "title": "Lead Data Scientist, Orion Innovation",
     "role": "panelist",
-    "talk_title": "Coming Soon",
     "bio": [
       "Dr. Galib Rahaman Mallik is a Lead Data Scientist at Orion Innovation, working at the intersection of advanced research and enterprise AI. His expertise spans AI, differential geometry, and control theory, with applications in robotics, aerospace, healthcare, and bioinformatics. He holds a Ph.D. from IIT Bombay and completed a postdoctoral fellowship at Kansas State University."
     ],
     "image": "grm.jpg"
   }
 ]
-
