@@ -2,7 +2,11 @@
   {
     "id": 1,
     "title": "Adaptive Tracking Control of 2-DoF Helicopter under State and Input Constraints with Verifiable Feasibility",
-    "authors": ["Poulomee Ghosh", "Shubhendu Bhasin"]
+    "authors": [
+      "Poulomee Ghosh",
+      "Shubhendu Bhasin"
+    ],
+    "pdf": "https://openreview.net/forum?id=6jNeV7CiLn"
   },
   {
     "id": 2,
@@ -14,27 +18,44 @@
       "Amandip Dutta",
       "Ved Santosh Narsekar",
       "Koena Mukherjee"
-    ]
+    ],
+    "pdf": "https://openreview.net/forum?id=qbJP0QAlsK"
   },
   {
     "id": 3,
     "title": "Sample Complexity of Model-Free Policy Iteration for the Linear Quadratic Regulator",
-    "authors": ["Vijayanand Digge", "Gianluca Bianchin"]
+    "authors": [
+      "Vijayanand Digge",
+      "Gianluca Bianchin"
+    ],
+    "pdf": "https://openreview.net/forum?id=p2h1jsuA5w"
   },
   {
     "id": 4,
     "title": "Safe Human-Robot Interaction using MPC",
-    "authors": ["Chayan Kumar Paul", "Bhabani Shankar Dey", "Indra Narayan Kar"]
+    "authors": [
+      "Chayan Kumar Paul",
+      "Bhabani Shankar Dey",
+      "Indra Narayan Kar"
+    ],
+    "pdf": "https://openreview.net/forum?id=Rhe2EAuzov"
   },
   {
     "id": 5,
     "title": "Can AI Learn to Play like a Pro?: A Case Study on using Transformers for StarCraft II",
-    "authors": ["Prannoy Namala", "Jeffrey W. Herrmann"]
+    "authors": [
+      "Prannoy Namala",
+      "Jeffrey W. Herrmann"
+    ],
+    "pdf": "https://openreview.net/forum?id=LZBtYnWmYE"
   },
   {
     "id": 6,
-    "title": "PMP–NMPC for Quadrotor Landing Under Learned Downwash Disturbances",
-    "authors": ["Pratik Mukherjee"]
+    "title": "PMP-NMPC for Quadrotor Landing Under Learned Downwash Disturbances",
+    "authors": [
+      "Pratik Mukherjee"
+    ],
+    "pdf": "https://openreview.net/forum?id=DlDSx6cVNw"
   },
   {
     "id": 7,
@@ -44,22 +65,35 @@
       "Rebanta Dey",
       "Pandya Naisarg Jayantkumar",
       "Samrat Dutta"
-    ]
+    ],
+    "pdf": "https://openreview.net/forum?id=j78YPxJ3ki"
   },
   {
     "id": 8,
     "title": "OpenVLM-Nav: Training-Free Zero-Shot Object-Goal Navigation via Vision-Language Guidance",
-    "authors": ["Athira Krishnan R", "Swapnil Bag", "Sumohana S. Channappayya"]
+    "authors": [
+      "Athira Krishnan R",
+      "Swapnil Bag",
+      "Sumohana S. Channappayya"
+    ],
+    "pdf": "https://openreview.net/forum?id=NzYQd6TLW2"
   },
   {
     "id": 9,
     "title": "A Distributed ESP32-ROS Architecture for Real-Time EKF-SLAM on Low-Cost Mobile Robots",
-    "authors": ["Soumyajeet Mahapatra", "Asim Kr Naskar"]
+    "authors": [
+      "Soumyajeet Mahapatra",
+      "Asim Kr Naskar"
+    ],
+    "pdf": "https://openreview.net/forum?id=TLkQYWXOsG"
   },
   {
     "id": 10,
     "title": "Kolmogorov–Arnold Controllers: Toward Smooth and Safer Embedded Policies",
-    "authors": ["Swarnava Dey"]
+    "authors": [
+      "Swarnava Dey"
+    ],
+    "pdf": "https://openreview.net/forum?id=Ts7VxDbRyG"
   },
   {
     "id": 11,
@@ -70,7 +104,8 @@
       "Avani Baranwal",
       "Agniva Banerjee",
       "Arijit Sen"
-    ]
+    ],
+    "pdf": "https://openreview.net/forum?id=jEOGrUrdli"
   },
   {
     "id": 12,
@@ -81,7 +116,8 @@
       "Harshit Agnihotri",
       "Agniva Banerjee",
       "Arijit Sen"
-    ]
+    ],
+    "pdf": "https://openreview.net/forum?id=31kGZSzDWs"
   },
   {
     "id": 13,
@@ -92,6 +128,7 @@
       "Somdeb Saha",
       "Vighnesh Vatsal",
       "Kaushik Das"
-    ]
+    ],
+    "pdf": "https://openreview.net/forum?id=r0xwZWjLEi"
   }
 ]

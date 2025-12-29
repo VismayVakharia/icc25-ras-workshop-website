@@ -34,13 +34,14 @@ function createAbstractElement(abstract: Abstract, index: number): HTMLElement {
 
   const authorsText = formatAuthors(abstract.authors);
 
+  article.innerHTML = abstractHTML;
+
   if (abstract.pdf) {
     const pdf_badge: HTMLSpanElement = article.querySelector("#pdf_badge")!;
     pdf_badge.classList.remove("hidden");
     pdf_badge.classList.add("inline-flex");
   }
 
-  article.innerHTML = abstractHTML;
   article.querySelector("h3")!.innerText = abstract.title;
   (article.querySelector("#index") as HTMLSpanElement).innerText = `${
     index + 1
